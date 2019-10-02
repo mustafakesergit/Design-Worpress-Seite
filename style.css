@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    padding-top: 50px;
+    height: 400vh;
+}
+
+nav{
+    display:flex;
+    background-color: rgba(0,0,0,.8);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+
+}
+
+nav li{
+    margin-top: 7px;
+    list-style-type: none;
+    margin-left: 20px;
+    color: antiquewhite;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+nav li:first-child{
+    color:white;
+    margin-right: auto;
+
+
+}
+
+.blidergalerie{
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+
+img{
+    width: 485px;
+    height: auto;
+    margin: 10px;
+}
+
+h2{
+    font-family:  'Raleway', sans-serif;
+}
+
+.section2{
+    background-image: url(/welle.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+height: 100vh;
+
+}
+div{
+    position: relative;
+}
+h2{
+    position: absolute;
+    top: 40vh;
+    left: 400px;
+    color: white;
+    font-size: 50px;
+}
+h4{
+    position: absolute;
+    top: 40vh;
+    left: 510px;
+    color: white;
+    font-size: 20px;
+    font-family:  'Raleway', sans-serif;
+    margin: 0px;
+}
+
+.button{
+  
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 390px;
+    left: 560px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h5{
+    color: white;
+    margin: 10px;
+    border: 2px solid white;
+    padding: 20px;
+
+}
+h5:nth-child(2){
+    background-color: #5234f9;
+    padding-left: 40px;
+    padding-right: 40px;
+}
