@@ -1,88 +1,93 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
+/*Die Farbe der Buttons “Read more” ist: #745cf9
+Die Hover-Farbe der Buttons “Read more” ist: #5234f9
+Die Farbe der <p> ist: #8c979e
+Die Farbe der <h2> ist:#0e1015  
+Der Link des Fotos:	
+https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/macbook-preview-flexible.png
+https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/flexible-portfolio.png
+*/
 
-
-body,html{
+body,
+html {
     margin: 0px;
     padding: 0px;
 }
 
-section{
+section {
     padding-top: 50px;
     height: 400vh;
 }
 
-nav{
-    display:flex;
-    background-color: rgba(0,0,0,.8);
+nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, .8);
     height: 50px;
     position: fixed;
-    width: 100%;
-
+    width: 99.9%;
 }
 
-nav li{
+nav li {
     margin-top: 7px;
     list-style-type: none;
     margin-left: 20px;
     color: antiquewhite;
     margin-right: 10px;
     padding-top: 10px;
+    margin-right: 0px;
 }
-nav li:first-child{
-    color:white;
+
+nav li:first-child {
+    color: white;
     margin-right: auto;
-
-
 }
 
-.blidergalerie{
+.blidergalerie {
     display: flex;
     flex-wrap: nowrap;
-
-
 }
 
-img{
+img {
     width: 485px;
     height: auto;
     margin: 10px;
 }
 
-h2{
-    font-family:  'Raleway', sans-serif;
+h2 {
+    font-family: 'Raleway', sans-serif;
 }
 
-.section2{
+.section2 {
     background-image: url(/welle.webp);
     background-repeat: no-repeat;
     background-size: 100%;
-
-height: 100vh;
-
+    height: 100vh;
 }
-div{
+
+div {
     position: relative;
 }
-h2{
+
+h2 {
     position: absolute;
     top: 40vh;
-    left: 400px;
+    left: 370px;
     color: white;
     font-size: 50px;
 }
-h4{
+
+h4 {
     position: absolute;
     top: 40vh;
     left: 510px;
     color: white;
     font-size: 20px;
-    font-family:  'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0px;
 }
 
-.button{
-  
+.button {
     width: 400px;
     height: 200px;
     position: relative;
@@ -92,18 +97,32 @@ h4{
     text-align: center;
     justify-content: center;
     align-items: center;
-
 }
 
-h5{
+h5 {
     color: white;
     margin: 10px;
     border: 2px solid white;
     padding: 20px;
-
 }
-h5:nth-child(2){
+
+h5:nth-child(2) {
     background-color: #5234f9;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+
+/* section3 */
+
+.section3 {
+    background-color: beige;
+    width: 100vw;
+    height: 100vh;
+}
+
+.section3flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
